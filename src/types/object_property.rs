@@ -10,7 +10,7 @@ pub enum ObjectProperty {
     FillMode(i32),
     SecondaryColor(Color),
     Thickness(OrderedFloat<f32>),
-    TotalAngle(i32),
+    TotalAngle(f32),
     Corners(i32),
     Blending(i32),
     GridOffset(Vec2),
